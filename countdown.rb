@@ -1,3 +1,5 @@
+require "pry"
+
 #write your code here
 
 integer = 10
@@ -11,7 +13,7 @@ def countdown(integer)
   return "HAPPY NEW YEAR!"
 end
 
-
+binding.pry
 integer = 10
 
 def countdown_with_sleep(integer)
