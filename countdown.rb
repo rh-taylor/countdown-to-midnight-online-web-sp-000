@@ -12,3 +12,4 @@ def countdown(integer)
 end
 
 
+def countdown_to_sleep
